@@ -1,0 +1,19 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+
+<button (click)="goHomePage()">Home</button>
+<button (click)="showPlantDiv()">Show Plants</button>
+<button (click)="showInfoDiv()">Info</button>
+<br><br>
+<div class="div-main">
+  <!--
+  <plants-show></plants-show>
+    -->
+<div *ngIf="showPlant"><plants-show></plants-show></div>
+<div *ngIf="showInfo"> Info Page </div>
+</div>
+

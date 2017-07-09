@@ -1,0 +1,36 @@
+li{
+    list-style-type: none;
+    color:darkcyan;
+    width: 100pt;
+}
+li:hover{
+    cursor:pointer;
+    background-color: lightslategray;
+    color: white
+}
+li:active{
+    background-color: lightseagreen;
+    color:white;
+}
+.plant-id{
+    color: white;
+    background-color: cadetblue;
+    display: inline-block;
+    width: 11pt;
+    padding: 5pt 5pt 5pt 5pt;
+    margin-bottom: 3pt;
+}
+.div-left{
+    width: 25%;
+    display: inline-block;
+/*    border: 10pt solid brown; */
+}
+
+.div-right{
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-size-adjust: +1;
+/*    border: 10pt solid brown; */
+}

@@ -1,0 +1,22 @@
+<div class="div-left">
+  <ul>
+    <li *ngFor="let plant of plants" (click)="plantSelected(plant)"  >
+        <span class="plant-id"> {{plant.id}} </span>
+        {{plant.name|uppercase}}
+        <br>
+        </li>
+  </ul>
+</div>
+
+<div class="div-right" >
+<!--
+  <plant-detail [plant]="selectedPlant"></plant-detail>
+<button (click)="showDetails()" style="cursor: move">View {{selectedPlant.name}} Details</button>
+
+-->
+<router-outlet></router-outlet>
+
+</div>      
+
+
+

@@ -1,0 +1,18 @@
+.div-main{
+    background-color: lavender;    
+}
+
+button{
+    color: white;
+    background: cadetblue;
+    padding: 10pt 10pt 10pt 10pt;
+    border-radius: 10pt;
+}
+button:hover{
+    color:cadetblue;
+    background-color:white;
+}
+button:focus{
+    color:white;
+    background-color: lightseagreen;
+}
