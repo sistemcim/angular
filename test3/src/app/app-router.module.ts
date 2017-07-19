@@ -17,12 +17,13 @@ const routes:Routes=[
     },{
         path:"detail/:id",
         component: PlantDetailComponent
-    },{
+    }
+/*    ,{
         path: '**', 
         redirectTo:"plants",
         pathMatch: "full"
     }    
-    
+*/    
 ];
 
 @NgModule({
